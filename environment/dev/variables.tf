@@ -1,26 +1,34 @@
- variable "rg_variable" {
-   
- }
+variable "rg_variable" {
 
- variable "vnet-khushi" {
-   
- }
+}
 
- variable "khushi_sub" {
-   
- }
+variable "vnet-khushi" {
 
- variable "network_interface" {
-   
- }
+}
 
- variable "public_ips" {
-   
- }
+variable "khushi_sub" {
 
- variable "blob_storage" {
-   
- }
- variable "vms" {
-   
- }
+}
+
+variable "network_interface" {
+
+}
+
+variable "public_ips" {
+
+}
+
+# variable "blob_storage" {
+
+# }
+variable "vms" {
+
+}
+
+variable "bastions" {
+
+}
+
+variable "app_gateways" {
+
+}

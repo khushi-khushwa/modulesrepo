@@ -20,7 +20,7 @@ terraform {
 provider "azurerm" {
   features {
   }
-} 
+}
 
 # provider block configures a name provider , which is a plugin that lets terraform interact with cloud services.
 /*

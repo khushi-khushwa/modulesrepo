@@ -1,0 +1,22 @@
+[
+ {
+  "RuleID": "stripe-access-token",
+  "Description": "Found a Stripe Access Token, posing a risk to payment processing services and sensitive financial data.",
+  "StartLine": 99,
+  "EndLine": 99,
+  "StartColumn": 17,
+  "EndColumn": 51,
+  "Match": "sk_test_1234567890abcdef1234567890\"",
+  "Secret": "sk_test_1234567890abcdef1234567890",
+  "File": "terraform.tfvars",
+  "SymlinkFile": "",
+  "Commit": "",
+  "Entropy": 4.2639337,
+  "Author": "",
+  "Email": "",
+  "Date": "",
+  "Message": "",
+  "Tags": [],
+  "Fingerprint": "terraform.tfvars:stripe-access-token:99"
+ }
+]
